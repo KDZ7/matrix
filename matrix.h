@@ -9,6 +9,7 @@
 #define _MATRIX
 
 #include <cmath>
+#include <iostream>
 
 #define del_p(x) { delete (x); (x) = nullptr; }
 #define del_ptab(x) { delete[] (x); (x) = nullptr; }
